@@ -71,6 +71,46 @@
             <strong>Commit changes with a message:</strong><br>
             <code>git commit -m "message"</code>
         </div>
+        <section>
+            <h2>Step-by-Step Git Workflow</h2>
+            <p>Here’s a simple guide to help you understand a typical Git workflow:</p>
+            <ol>
+                <li>
+                    <strong>Initialize a Repository:</strong><br>
+                    Start a new project by creating a Git repository:
+                    <code>git init</code>
+                </li>
+                <li>
+                    <strong>Stage Your Changes:</strong><br>
+                    Add the files you want to track:
+                    <code>git add &lt;file_name&gt;</code>  
+                    Or stage all files at once:  
+                    <code>git add .</code>
+                </li>
+                <li>
+                    <strong>Commit Your Changes:</strong><br>
+                    Save your changes to the repository:
+                    <code>git commit -m "Describe your changes"</code>
+                </li>
+                <li>
+                    <strong>Connect to a Remote Repository:</strong><br>
+                    Link your local repository to a remote one on GitHub:
+                    <code>git remote add origin &lt;remote_url&gt;</code>
+                </li>
+                <li>
+                    <strong>Push Changes to Remote:</strong><br>
+                    Upload your changes to the remote repository:
+                    <code>git push -u origin main</code>
+                </li>
+                <li>
+                    <strong>Pull Updates:</strong><br>
+                    Keep your local repository up-to-date with the remote:
+                    <code>git pull</code>
+                </li>
+            </ol>
+            <p>Repeat these steps as you work on your project. This workflow helps you keep track of changes and collaborate efficiently with others!</p>
+        </section>
+        
         <ul>
             <li><code>git init</code> – Initialize a new Git repository.</li>
             <li><code>git clone &lt;repo_url&gt;</code> – Clone a repository from a remote server.</li>
